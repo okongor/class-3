@@ -1,0 +1,244 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: myfontbold;
+    src: url(font/Roboto-Bold.ttf);
+}
+
+
+body{
+  margin:0 ;
+  padding: 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.9px);
+    -webkit-backdrop-filter: blur(13.9px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    flex-basis:auto ;
+}
+
+.navlinks{
+    flex-basis: auto;
+    width:30% ;
+   
+}
+.button{
+    flex-basis: auto;
+}
+
+
+nav .navlinks ul{
+    display: flex;
+ 
+    justify-content: space-between;
+}
+
+nav .navlinks ul li{
+    list-style:none;
+}
+
+nav .navlinks ul li a{
+    text-decoration: none;
+    color: #1c1e53;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.button button{
+    width: 130px;
+    height: 50px;
+    color:#5e3bee ;
+    background-color: white;
+    border: 1px solid #5e3bee;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5.33px;
+    font-family: Roboto;
+    transition: all ease 0.4s;
+}
+
+.button button:hover{
+    cursor: pointer;
+    scale: 1.1;
+
+}
+
+.home-page{
+   padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    background: #f5fcff;
+    
+
+    
+
+}
+
+
+
+.greeting{
+   font-family: Roboto ;
+   font-size: 21.33px;
+   font-weight: 600;
+   color: #282938;
+}
+.heading{
+    font-size: 45px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700;
+}
+
+.change{
+    color: #5e3bee;
+}
+
+.explain-tire{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.left-side button{
+    width: 170px;
+    height: 60px;
+    font-size: 15px;
+    margin-top: 3%;
+    background-color: #5e3bee;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.portfolio{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 8%;
+}
+
+.expert{
+    font-size: 50px;
+    font-family:myfontbold ;
+    color: #282938;
+}
+
+.cards{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.9px);
+    -webkit-backdrop-filter: blur(13.9px);
+    width: 20%;
+    padding: 20px;
+    background-color: #f5fcff;
+    border-radius: 5px;
+    border-bottom: 3.5px solid #5e3bee ;
+
+}
+
+
+.cards .image{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.9px);
+    -webkit-backdrop-filter: blur(13.9px);
+    padding: 10px;
+    width: 60px;
+    border-radius: 9px;
+}
+
+.cards h1{
+    font-size: 22px;
+    font-family: myfontbold;
+    
+}
+
+.flex-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    margin-top: 8%;
+    justify-content: center;
+    display: flex;
+}
+.form p{
+text-align: center;
+}
+
+.form h2{
+    text-align: center;
+}
+
+
+.Names .name{
+    width: 369px;
+    height: 34px;
+    margin-right: 20px;
+    border: 1px solid #5E3BEE    ;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.contacts .contact{
+    width: 369px;
+    height: 34px;
+    margin-top: 4%;
+    margin-right: 20px;
+    border: 1px solid #5E3BEE    ;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+select{
+    width: 787px;
+    margin-top: 4%;
+    height: 48px;
+    border: 1px solid #5E3BEE    ;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+textarea{
+    margin-top: 4%;
+    width: 787px;
+    height: 180px;
+    border: 1px solid #5E3BEE    ;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.submitb{
+   
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #5E3BEE;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+   
+}
+
+.submitbutton{
+    display: flex;
+    justify-content: center;
+}
